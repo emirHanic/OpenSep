@@ -1,0 +1,4 @@
+# DOT FILES
+.vscode
+.venv
+.DS_Store
