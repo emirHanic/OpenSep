@@ -2,3 +2,6 @@
 .vscode
 .venv
 .DS_Store
+
+#.PYC FILES
+*.pyc

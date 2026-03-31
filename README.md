@@ -15,6 +15,19 @@ the **GPSA Engineering Data Book**, in SI units throughout.
 | Vertical Two-Phase (Gas/Liquid)        | ✅        |
 | Vertical Three-Phase (Gas/Oil/Water)   | ✅        |
 
+## Project Structure
+
+```
+opensep/
+├── app.py            # Streamlit UI — entry point, sidebar, tabs
+├── calculations.py   # All engineering physics & sizing functions
+├── constants.py      # Lookup tables: inlet devices, mist extractors, nozzle DN sizes
+├── plots.py          # All Plotly figure functions
+├── styles.py         # CSS, HTML templates, theory markdown
+├── LOGO.png          # Place your logo here
+└── requirements.txt
+```
+
 ## Methods & Standards
 
 - **Droplet settling**: Iterative drag coefficient (Schiller-Naumann) per GPSA Ch. 7
